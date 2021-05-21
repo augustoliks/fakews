@@ -4,6 +4,8 @@ WebServer com um canal websocket. Ideal parar testar ambientes Web.
 
 # Execução 
 
+Provisionar o serviço com docker-compose:
+
 ```bash
 docker-compose up --build -d
 ```
