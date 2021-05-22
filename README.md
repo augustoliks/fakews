@@ -10,7 +10,13 @@ Provisionar o serviço com docker-compose:
 docker-compose up --build -d
 ```
 
-Testar conexão:
+Testar conexão com python direto:
+
+```shell
+websocat ws://127.0.0.1:8090/ws
+```
+
+Testar conexão passando pelo NGINX:
 
 ```shell
 websocat ws://127.0.0.1:8080/ws
