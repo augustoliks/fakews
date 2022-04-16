@@ -10,7 +10,11 @@ from pathlib import Path
 import logging
 import json
 
-mocks = [json.dumps(json.loads(path.read_text())) for path in Path('.').glob('mock-*.json')]
+
+mocks = [
+    json.dumps(json.loads(path.read_text())) 
+    for path in Path('.').glob('mock-*.json')
+]
 
 
 class ConnectionManager:
