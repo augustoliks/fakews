@@ -1,4 +1,4 @@
-[![augustoliks/fakews](https://img.shields.io/badge/dockerfile-augustoliks/fakews:latest-blue.svg)](https://hub.docker.com/r/augustoliks/fakews)
+[![augustoliks/fakews](https://img.shields.io/badge/docker--hub-augustoliks/fakews:latest-blue.svg)](https://hub.docker.com/r/augustoliks/fakews)
 [![Docker Pulls](https://img.shields.io/docker/pulls/augustoliks/fakews.svg)](https://hub.docker.com/r/augustoliks/fakews/)
 
 # fakews
