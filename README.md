@@ -25,7 +25,7 @@ $ websocat ws://127.0.0.1:8090/ws
 
 # How To Run Locally With NGINX Proxy
 
-Prosioning `fakews` back in NINGX proxy:
+Provisioning `fakews` back in NINGX proxy:
 
 ```bash
 $ docker-compose up --build -d
