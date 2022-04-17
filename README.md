@@ -3,7 +3,7 @@
 
 # fakews
 
-Container tool that generate events in JSON format through web socket channel. The purpose of this image is help infra debug process.
+Container tool that generates events in JSON format through web socket channel. The purpose of this image is to help the infra debug process.
 
 # How To Run
 
