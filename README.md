@@ -17,7 +17,7 @@ $ docker run -it -p 8090:8090 augustoliks/fakews
 
 Test web socket connection:
 
-```shell
+```bash
 $ websocat ws://127.0.0.1:8090/ws
 ```
 
@@ -27,12 +27,12 @@ $ websocat ws://127.0.0.1:8090/ws
 
 Prosioning `fakews` back in NINGX proxy:
 
-```shell
-docker-compose up --build -d
+```bash
+$ docker-compose up --build -d
 ```
 
 Test connections through NGINX proxy:
 
-```shell
-websocat ws://127.0.0.1:8080/ws
+```bash
+$ websocat ws://127.0.0.1:8080/ws
 ```
